@@ -1,4 +1,4 @@
-.messengerSection {
+.messangerSection {
   display: flex;
   flex-direction: row;
   width: auto;
@@ -16,4 +16,3 @@
     position: sticky;
     width: 255px;
 }
-

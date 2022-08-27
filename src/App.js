@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import Profile from './components/Profile/MyPosts';
 
 import './App.css';
-import Messenger from './components/Messenger';
+import Messenger from './components/Messanger';
 import News from './components/News';
 import Music from './components/Music';
 import Settings from './components/Settings';
@@ -25,8 +25,11 @@ const App = (props) => {
           <Navbar />
           <div className='app-wrapper-content'>
             <Routes>
-              <Route path='/profile/*' element={<Profile postsData={props.postsData} />} />
-              <Route path='/messenger/*' element={<Messenger dialogsData={props.dialogsData} messagesData={props.messagesData} />} />
+              <Route path='/profile/*' 
+              element={<Profile postsData={props.state.profile.postsData} />} />
+              <Route path='/messenger/*' 
+              element={<Messenger 
+              dialogsData={props.state.messanger.dialogsData} messagesData={props.state.messanger.messagesData} />} />
               <Route path='/news/*' element={<News />} />
               <Route path='/music/*' element={<Music />} />
               <Route path='/settings/*' element={<Settings />} />

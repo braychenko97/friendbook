@@ -1,12 +1,12 @@
 import React from 'react';
 
-import classes from './Messenger.module.css';
+import classes from './Messanger.module.css';
 import DialogLink from './DialogLink';
 import MessageText from './MessageText';
 
 
 
-const Messenger = (props) => {
+const Messanger = (props) => {
 
   let dialogsElements = props.dialogsData
     .map(dialog => <DialogLink name={dialog.name} surname={dialog.surname} id={dialog.id} />)
@@ -16,7 +16,7 @@ const Messenger = (props) => {
 
 
   return (
-    <div className={classes.messengerSection}>
+    <div className={classes.messangerSection}>
       <div className={classes.chatUsers}>
         {dialogsElements}
       </div>
@@ -29,4 +29,4 @@ const Messenger = (props) => {
   )
 }
 
-export default Messenger;
+export default Messanger;
