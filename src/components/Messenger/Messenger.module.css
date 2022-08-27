@@ -1,0 +1,19 @@
+.messengerSection {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  min-height: 100vh;
+  color: #51595e;
+  margin: 0;
+}
+
+.chatUsers {
+    background-color: #ffffff;
+    padding: 20px 20px;
+    text-align: start;
+    height: max-content;
+    min-height: 796px;
+    position: sticky;
+    width: 255px;
+}
+

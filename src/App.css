@@ -1,0 +1,25 @@
+body {
+  background-color: #edf7fb;
+  font-size: 14px;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif, "Roboto", sans-serif;
+      font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    margin: 0;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  min-height: 100vh;
+}
+
+.app-wrapper-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
