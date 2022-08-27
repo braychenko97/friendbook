@@ -8,10 +8,10 @@ import MessageText from './MessageText';
 
 const Messanger = (props) => {
 
-  let dialogsElements = props.dialogsData
+  let dialogsElements = props.state.dialogsData
     .map(dialog => <DialogLink name={dialog.name} surname={dialog.surname} id={dialog.id} />)
 
-  let messagesElements = props.messagesData
+  let messagesElements = props.state.messagesData
     .map(message => <MessageText text={message.text} id={message.id} />)
 
 
