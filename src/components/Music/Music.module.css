@@ -1,0 +1,8 @@
+.musicContainer {
+  margin: 0 25px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: calc(100% - 156px);
+}

@@ -1,0 +1,11 @@
+.profileWrapper {
+background-image: url('/public/images/music/wallpapersden.com_music-all-day-hd-scifi_2560x1080.jpg');
+height: 350px;
+    width: 100vw;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1050px;
+    border-radius: 5px 5px 0 0;
+}
